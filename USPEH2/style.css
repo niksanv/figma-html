@@ -1,0 +1,97 @@
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 1530px;
+    margin: 0 auto;
+}
+
+.main_info {
+    height: 317px;
+    padding: 35px 0 30px 0;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.info_text {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #2E2E2E;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2E2E2E;
+  /*   margin-top: 10px; */
+}
+
+.course {
+    margin-top: 30px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    color: #2E2E2E;
+}
+
+button {
+    width: 110px;
+    height: 34px;
+    padding: 0;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .button-box__select-semester {
+    border: solid #212332 0.1px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px 2px 5px;
+}
+
+.rating__button-box {
+    display: flex;
+}
+
+.button-box__select-semester:focus {
+    background: #CEFFD9;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.choose_term {
+    display: flex;
+    justify-content: end;
+}
+
+.rating__table {
+    display: grid;
+    grid-template-columns: 30% 20% 30% 20%;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border: #000000;
+    margin-top: 50px;
+}
